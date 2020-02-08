@@ -17,7 +17,6 @@
 		BE086B401BEDDFE200CEF360 /* MMEXCreateFirstAccountGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE086B421BEDDFE200CEF360 /* MMEXCreateFirstAccountGuideViewController.xib */; };
 		BE086B471BEDE08600CEF360 /* MMEXStartPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE086B491BEDE08600CEF360 /* MMEXStartPageViewController.xib */; };
 		BE086B561BEDE91D00CEF360 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE086B581BEDE91D00CEF360 /* Localizable.strings */; };
-		BE086B5C1BEDEA1F00CEF360 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE086B5B1BEDEA1F00CEF360 /* Info.plist */; };
 		BE086B601BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE086B5E1BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.m */; };
 		BE086B611BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE086B5F1BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.xib */; };
 		BE086B671BEDF53700CEF360 /* MMEXAddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE086B651BEDF53700CEF360 /* MMEXAddTransactionViewController.m */; };
@@ -983,6 +982,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				"zh-Hans",
@@ -1019,7 +1019,6 @@
 				BE73F35B1DDF0E2E00F49548 /* tables_v1.sql in Resources */,
 				BE086B681BEDF53700CEF360 /* MMEXAddTransactionViewController.xib in Resources */,
 				BEB7BA321D8ED2BB0065CE2A /* BankAccountViewController.xib in Resources */,
-				BE086B5C1BEDEA1F00CEF360 /* Info.plist in Resources */,
 				BE086B6D1BEDF59A00CEF360 /* MMEXMyAccountViewController.xib in Resources */,
 				BE086B611BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.xib in Resources */,
 				BECE3E531D12E8230075D562 /* MMEXMyAccountTableViewCell.xib in Resources */,
@@ -1401,11 +1400,11 @@
 				INFOPLIST_FILE = MoneyManagerEx/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmex.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1425,7 +1424,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
