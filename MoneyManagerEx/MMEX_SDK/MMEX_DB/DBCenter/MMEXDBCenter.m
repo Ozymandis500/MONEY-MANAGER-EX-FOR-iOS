@@ -126,11 +126,7 @@ static MMEXDBCenter *singletonDBCenter = nil;
 
 - (LoginRecord *)_getLoginInfoByAccount:(NSString *)account
 {
-//    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"account == %@", account];
-//    NSEntityDescription *loginDes = [LoginRecord entityDesInManagedObjectContext:moc];
-//    NSArray *result = [self fetchRequest:loginDes predicate:predicate sort:nil fetchLimit:1 inMoc:moc];
-    
-    return result.firstObject;
+    return nil;
 }
 
 #pragma mark - UserInfo

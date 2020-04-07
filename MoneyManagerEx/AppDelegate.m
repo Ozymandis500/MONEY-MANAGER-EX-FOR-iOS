@@ -15,7 +15,7 @@
 #import "MMEXAddTransactionViewController.h"
 #import "MMEXAssetsViewController.h"
 #import "IQKeyboardManager.h"
-#import "MoneyManagerExDBCenter.h"
+#import "MMEXDBCenter.h"
 #import "StringUtility.h"
 #import "MMEX.h"
 

@@ -7,21 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
-#import "BaseManagedObject.h"
+#import "DBTableBase.h"
 
 @class UserInfo;
 @class Account;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginRecord : BaseManagedObject
+@interface LoginRecord : DBTableBase
 
 // Insert code here to declare functionality of your managed object subclass
-+ (NSString*)entityName;
 
 @end
 
 NS_ASSUME_NONNULL_END
-
-#import "LoginRecord+CoreDataProperties.h"

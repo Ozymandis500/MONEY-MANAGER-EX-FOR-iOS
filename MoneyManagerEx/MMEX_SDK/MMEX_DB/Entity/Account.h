@@ -7,20 +7,35 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
-#import "BaseManagedObject.h"
+#import "DBTableBase.h"
 
-@class Currency, Merchant, Transaction, UserInfo;
+//@class Currency, Merchant, Transaction, UserInfo;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Account : BaseManagedObject
+@interface Account : DBTableBase
 
-// Insert code here to declare functionality of your managed object subclass
-+ (NSString*)entityName;
+@property (nonatomic, assign)  NSInteger   accountId;
+@property (nonnull, nonatomic, copy)    NSString    *accountName;
+@property (nonnull, nonatomic, copy)    NSString    *accountType;
+@property (nullable, nonatomic, copy)   NSString *accountNum;
+@property (nonnull, nonatomic, copy)             NSString *status;
+@property (nullable, nonatomic, copy)   NSString *notes;
+@property (nullable, nonatomic, copy)   NSString *heldAt;
+@property (nullable, nonatomic, copy)   NSString *website;
+@property (nullable, nonatomic, copy)   NSString *contactInfo;
+@property (nullable, nonatomic, strong) NSNumber *initialbal;
+@property (nonnull, nonatomic, copy)             NSString  *favoriteAcct;
+@property (nonatomic, assign)           NSInteger currencyId;
+@property (nonatomic, assign)           NSInteger statementlocked;
+@property (nullable, nonatomic, copy)   NSString *statementDate;
+@property (nullable, nonatomic, strong) NSNumber *minimumBalance;
+@property (nullable, nonatomic, strong) NSNumber *creditlimit;
+@property (nullable, nonatomic, strong) NSNumber *interestRate;
+@property (nullable, nonatomic, copy)   NSString *paymentDueDate;
+@property (nullable, nonatomic, strong) NSString *minimumPayment;
+
 
 @end
 
 NS_ASSUME_NONNULL_END
-
-#import "Account+CoreDataProperties.h"
