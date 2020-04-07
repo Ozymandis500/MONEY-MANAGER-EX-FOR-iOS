@@ -1,1 +1,8 @@
 MoneyManagerEx.xcworkspace/xcuserdata
+._.gitignore
+._MoneyManagerEx.xcodeproj
+._MoneyManagerEx.xcworkspace
+._Podfile
+Pods
+._*
+MoneyManagerEx.xcworkspace/xcshareddata
