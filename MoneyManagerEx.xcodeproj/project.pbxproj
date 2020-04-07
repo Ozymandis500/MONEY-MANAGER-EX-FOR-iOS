@@ -41,25 +41,18 @@
 		BE35F3F81D30E824004110A4 /* TransactionTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3F71D30E824004110A4 /* TransactionTypeModel.m */; };
 		BE35F3FB1D30E8DE004110A4 /* TransactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3FA1D30E8DE004110A4 /* TransactionModel.m */; };
 		BE35F4261D30EB68004110A4 /* MMEXDBCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3FF1D30EB68004110A4 /* MMEXDBCenter.m */; };
-		BE35F4271D30EB68004110A4 /* Account+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4021D30EB68004110A4 /* Account+CoreDataProperties.m */; };
 		BE35F4281D30EB68004110A4 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4041D30EB68004110A4 /* Account.m */; };
-		BE35F4291D30EB68004110A4 /* BaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4061D30EB68004110A4 /* BaseManagedObject.m */; };
-		BE35F42A1D30EB68004110A4 /* Contacts+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4081D30EB68004110A4 /* Contacts+CoreDataProperties.m */; };
 		BE35F42B1D30EB68004110A4 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F40A1D30EB68004110A4 /* Contacts.m */; };
-		BE35F42C1D30EB68004110A4 /* Currency+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F40C1D30EB68004110A4 /* Currency+CoreDataProperties.m */; };
 		BE35F42D1D30EB68004110A4 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F40E1D30EB68004110A4 /* Currency.m */; };
-		BE35F42E1D30EB68004110A4 /* LoginRecord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4101D30EB68004110A4 /* LoginRecord+CoreDataProperties.m */; };
 		BE35F42F1D30EB68004110A4 /* LoginRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4121D30EB68004110A4 /* LoginRecord.m */; };
-		BE35F4301D30EB68004110A4 /* Merchant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4141D30EB68004110A4 /* Merchant+CoreDataProperties.m */; };
 		BE35F4311D30EB68004110A4 /* Merchant.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4161D30EB68004110A4 /* Merchant.m */; };
-		BE35F4321D30EB68004110A4 /* Transaction+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4181D30EB68004110A4 /* Transaction+CoreDataProperties.m */; };
 		BE35F4331D30EB68004110A4 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F41A1D30EB68004110A4 /* Transaction.m */; };
-		BE35F4341D30EB68004110A4 /* TransactionType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F41C1D30EB68004110A4 /* TransactionType+CoreDataProperties.m */; };
 		BE35F4351D30EB68004110A4 /* TransactionType.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F41E1D30EB68004110A4 /* TransactionType.m */; };
-		BE35F4361D30EB68004110A4 /* UserInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4201D30EB68004110A4 /* UserInfo+CoreDataProperties.m */; };
 		BE35F4371D30EB68004110A4 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4221D30EB68004110A4 /* UserInfo.m */; };
-		BE35F4381D30EB68004110A4 /* MoneyManagerEx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4241D30EB68004110A4 /* MoneyManagerEx.xcdatamodeld */; };
 		BE35F43B1D30FDB2004110A4 /* StringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F43A1D30FDB2004110A4 /* StringUtility.m */; };
+		BE36DC08243C74AF00B19399 /* DBTableBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36DC07243C74AF00B19399 /* DBTableBase.m */; };
+		BE36DC0B243C8C1200B19399 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36DC0A243C8C1200B19399 /* Category.m */; };
+		BE36DC0E243C8D8C00B19399 /* SubCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36DC0D243C8D8C00B19399 /* SubCategory.m */; };
 		BE3D8D221DDB149700715A81 /* BaseMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D8D211DDB149700715A81 /* BaseMgr.m */; };
 		BE3D8D251DDB14F000715A81 /* AccountMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D8D241DDB14F000715A81 /* AccountMgr.m */; };
 		BE618D701D93FE1900984C45 /* BankAccountEditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE618D721D93FE1900984C45 /* BankAccountEditTableViewCell.xib */; };
@@ -76,7 +69,6 @@
 		BE73F3511DDC90E000F49548 /* EditInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE73F34F1DDC90E000F49548 /* EditInfoViewController.xib */; };
 		BE73F3551DDE077200F49548 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73F3531DDE077200F49548 /* libsqlite3.0.tbd */; };
 		BE73F3561DDE077200F49548 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73F3541DDE077200F49548 /* libsqlite3.tbd */; };
-		BE73F3591DDE08D700F49548 /* MMEXDBCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE73F3581DDE08D700F49548 /* MMEXDBCenter.m */; };
 		BE73F35B1DDF0E2E00F49548 /* tables_v1.sql in Resources */ = {isa = PBXBuildFile; fileRef = BE73F35A1DDF0E2E00F49548 /* tables_v1.sql */; };
 		BE81634A1DCA37F400BF90EC /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8163491DCA37F400BF90EC /* UIImage+Crop.m */; };
 		BE90096C1D8EC56800A570D6 /* TransactionTypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90096A1D8EC56800A570D6 /* TransactionTypeListViewController.m */; };
@@ -202,43 +194,30 @@
 		BE35F3FA1D30E8DE004110A4 /* TransactionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionModel.m; path = MMEX_SDK/Model/TransactionModel.m; sourceTree = "<group>"; };
 		BE35F3FE1D30EB68004110A4 /* MMEXDBCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEXDBCenter.h; sourceTree = "<group>"; };
 		BE35F3FF1D30EB68004110A4 /* MMEXDBCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEXDBCenter.m; sourceTree = "<group>"; };
-		BE35F4011D30EB68004110A4 /* Account+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Account+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4021D30EB68004110A4 /* Account+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Account+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4031D30EB68004110A4 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		BE35F4041D30EB68004110A4 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
-		BE35F4051D30EB68004110A4 /* BaseManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManagedObject.h; sourceTree = "<group>"; };
-		BE35F4061D30EB68004110A4 /* BaseManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManagedObject.m; sourceTree = "<group>"; };
-		BE35F4071D30EB68004110A4 /* Contacts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contacts+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4081D30EB68004110A4 /* Contacts+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contacts+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4091D30EB68004110A4 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
 		BE35F40A1D30EB68004110A4 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
-		BE35F40B1D30EB68004110A4 /* Currency+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Currency+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F40C1D30EB68004110A4 /* Currency+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Currency+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F40D1D30EB68004110A4 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
 		BE35F40E1D30EB68004110A4 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
-		BE35F40F1D30EB68004110A4 /* LoginRecord+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoginRecord+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4101D30EB68004110A4 /* LoginRecord+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoginRecord+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4111D30EB68004110A4 /* LoginRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRecord.h; sourceTree = "<group>"; };
 		BE35F4121D30EB68004110A4 /* LoginRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRecord.m; sourceTree = "<group>"; };
-		BE35F4131D30EB68004110A4 /* Merchant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Merchant+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4141D30EB68004110A4 /* Merchant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Merchant+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4151D30EB68004110A4 /* Merchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merchant.h; sourceTree = "<group>"; };
 		BE35F4161D30EB68004110A4 /* Merchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merchant.m; sourceTree = "<group>"; };
-		BE35F4171D30EB68004110A4 /* Transaction+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transaction+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4181D30EB68004110A4 /* Transaction+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Transaction+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4191D30EB68004110A4 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
 		BE35F41A1D30EB68004110A4 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
-		BE35F41B1D30EB68004110A4 /* TransactionType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TransactionType+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F41C1D30EB68004110A4 /* TransactionType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TransactionType+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F41D1D30EB68004110A4 /* TransactionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionType.h; sourceTree = "<group>"; };
 		BE35F41E1D30EB68004110A4 /* TransactionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionType.m; sourceTree = "<group>"; };
-		BE35F41F1D30EB68004110A4 /* UserInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
-		BE35F4201D30EB68004110A4 /* UserInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4211D30EB68004110A4 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		BE35F4221D30EB68004110A4 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
-		BE35F4251D30EB68004110A4 /* MoneyManagerEx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyManagerEx.xcdatamodel; sourceTree = "<group>"; };
 		BE35F4391D30FDB2004110A4 /* StringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringUtility.h; path = Helper/StringUtility.h; sourceTree = "<group>"; };
 		BE35F43A1D30FDB2004110A4 /* StringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringUtility.m; path = Helper/StringUtility.m; sourceTree = "<group>"; };
+		BE36DC06243C74AF00B19399 /* DBTableBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTableBase.h; sourceTree = "<group>"; };
+		BE36DC07243C74AF00B19399 /* DBTableBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTableBase.m; sourceTree = "<group>"; };
+		BE36DC09243C8C1200B19399 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		BE36DC0A243C8C1200B19399 /* Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		BE36DC0C243C8D8C00B19399 /* SubCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubCategory.h; sourceTree = "<group>"; };
+		BE36DC0D243C8D8C00B19399 /* SubCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubCategory.m; sourceTree = "<group>"; };
 		BE3D8D201DDB149700715A81 /* BaseMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseMgr.h; path = MMEX_SDK/Manager/BaseMgr.h; sourceTree = "<group>"; };
 		BE3D8D211DDB149700715A81 /* BaseMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseMgr.m; path = MMEX_SDK/Manager/BaseMgr.m; sourceTree = "<group>"; };
 		BE3D8D231DDB14F000715A81 /* AccountMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountMgr.h; path = MMEX_SDK/Manager/AccountMgr.h; sourceTree = "<group>"; };
@@ -268,8 +247,6 @@
 		BE73F34F1DDC90E000F49548 /* EditInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditInfoViewController.xib; path = Controller/CommonController/EditInfoViewController.xib; sourceTree = "<group>"; };
 		BE73F3531DDE077200F49548 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		BE73F3541DDE077200F49548 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		BE73F3571DDE08D700F49548 /* MMEXDBCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMEXDBCenter.h; path = MMEX_SDK/MMEX_DB_Sqlite3/MMEXDBCenter.h; sourceTree = "<group>"; };
-		BE73F3581DDE08D700F49548 /* MMEXDBCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMEXDBCenter.m; path = MMEX_SDK/MMEX_DB_Sqlite3/MMEXDBCenter.m; sourceTree = "<group>"; };
 		BE73F35A1DDF0E2E00F49548 /* tables_v1.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tables_v1.sql; sourceTree = "<group>"; };
 		BE8163441DCA19D800BF90EC /* EditBasicInfoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditBasicInfoDelegate.h; path = View/Me/BasicInfo/EditBasicInfoDelegate.h; sourceTree = "<group>"; };
 		BE8163481DCA37F400BF90EC /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Crop.h"; path = "Categories/UIImage+Crop.h"; sourceTree = "<group>"; };
@@ -492,7 +469,6 @@
 			children = (
 				BE35F3FD1D30EB68004110A4 /* DBCenter */,
 				BE35F4001D30EB68004110A4 /* Entity */,
-				BE35F4231D30EB68004110A4 /* ObjectModel */,
 			);
 			name = MMEX_DB;
 			path = MMEX_SDK/MMEX_DB;
@@ -512,50 +488,30 @@
 		BE35F4001D30EB68004110A4 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				BE35F4011D30EB68004110A4 /* Account+CoreDataProperties.h */,
-				BE35F4021D30EB68004110A4 /* Account+CoreDataProperties.m */,
+				BE36DC06243C74AF00B19399 /* DBTableBase.h */,
+				BE36DC07243C74AF00B19399 /* DBTableBase.m */,
 				BE35F4031D30EB68004110A4 /* Account.h */,
 				BE35F4041D30EB68004110A4 /* Account.m */,
-				BE35F4051D30EB68004110A4 /* BaseManagedObject.h */,
-				BE35F4061D30EB68004110A4 /* BaseManagedObject.m */,
-				BE35F4071D30EB68004110A4 /* Contacts+CoreDataProperties.h */,
-				BE35F4081D30EB68004110A4 /* Contacts+CoreDataProperties.m */,
-				BE35F4091D30EB68004110A4 /* Contacts.h */,
-				BE35F40A1D30EB68004110A4 /* Contacts.m */,
-				BE35F40B1D30EB68004110A4 /* Currency+CoreDataProperties.h */,
-				BE35F40C1D30EB68004110A4 /* Currency+CoreDataProperties.m */,
-				BE35F40D1D30EB68004110A4 /* Currency.h */,
-				BE35F40E1D30EB68004110A4 /* Currency.m */,
-				BE35F40F1D30EB68004110A4 /* LoginRecord+CoreDataProperties.h */,
-				BE35F4101D30EB68004110A4 /* LoginRecord+CoreDataProperties.m */,
-				BE35F4111D30EB68004110A4 /* LoginRecord.h */,
-				BE35F4121D30EB68004110A4 /* LoginRecord.m */,
-				BE35F4131D30EB68004110A4 /* Merchant+CoreDataProperties.h */,
-				BE35F4141D30EB68004110A4 /* Merchant+CoreDataProperties.m */,
-				BE35F4151D30EB68004110A4 /* Merchant.h */,
-				BE35F4161D30EB68004110A4 /* Merchant.m */,
-				BE35F4171D30EB68004110A4 /* Transaction+CoreDataProperties.h */,
-				BE35F4181D30EB68004110A4 /* Transaction+CoreDataProperties.m */,
+				BE36DC09243C8C1200B19399 /* Category.h */,
+				BE36DC0A243C8C1200B19399 /* Category.m */,
+				BE36DC0C243C8D8C00B19399 /* SubCategory.h */,
+				BE36DC0D243C8D8C00B19399 /* SubCategory.m */,
 				BE35F4191D30EB68004110A4 /* Transaction.h */,
 				BE35F41A1D30EB68004110A4 /* Transaction.m */,
-				BE35F41B1D30EB68004110A4 /* TransactionType+CoreDataProperties.h */,
-				BE35F41C1D30EB68004110A4 /* TransactionType+CoreDataProperties.m */,
+				BE35F4091D30EB68004110A4 /* Contacts.h */,
+				BE35F40A1D30EB68004110A4 /* Contacts.m */,
+				BE35F40D1D30EB68004110A4 /* Currency.h */,
+				BE35F40E1D30EB68004110A4 /* Currency.m */,
+				BE35F4111D30EB68004110A4 /* LoginRecord.h */,
+				BE35F4121D30EB68004110A4 /* LoginRecord.m */,
+				BE35F4151D30EB68004110A4 /* Merchant.h */,
+				BE35F4161D30EB68004110A4 /* Merchant.m */,
 				BE35F41D1D30EB68004110A4 /* TransactionType.h */,
 				BE35F41E1D30EB68004110A4 /* TransactionType.m */,
-				BE35F41F1D30EB68004110A4 /* UserInfo+CoreDataProperties.h */,
-				BE35F4201D30EB68004110A4 /* UserInfo+CoreDataProperties.m */,
 				BE35F4211D30EB68004110A4 /* UserInfo.h */,
 				BE35F4221D30EB68004110A4 /* UserInfo.m */,
 			);
 			path = Entity;
-			sourceTree = "<group>";
-		};
-		BE35F4231D30EB68004110A4 /* ObjectModel */ = {
-			isa = PBXGroup;
-			children = (
-				BE35F4241D30EB68004110A4 /* MoneyManagerEx.xcdatamodeld */,
-			);
-			path = ObjectModel;
 			sourceTree = "<group>";
 		};
 		BE618D831D96984000984C45 /* BasicInfo */ = {
@@ -595,15 +551,6 @@
 				BE73F34F1DDC90E000F49548 /* EditInfoViewController.xib */,
 			);
 			name = CommonController;
-			sourceTree = "<group>";
-		};
-		BE73F3521DDDC44E00F49548 /* MMEX_DB_Sqlite3 */ = {
-			isa = PBXGroup;
-			children = (
-				BE73F3571DDE08D700F49548 /* MMEXDBCenter.h */,
-				BE73F3581DDE08D700F49548 /* MMEXDBCenter.m */,
-			);
-			name = MMEX_DB_Sqlite3;
 			sourceTree = "<group>";
 		};
 		BE94726D1BE5F4EE001FF64C = {
@@ -720,7 +667,6 @@
 		BE9472B31BE60140001FF64C /* MMEX_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				BE73F3521DDDC44E00F49548 /* MMEX_DB_Sqlite3 */,
 				BED92E731DCB900B00EFD601 /* Interface */,
 				BE35F3FC1D30EB68004110A4 /* MMEX_DB */,
 				BE35F3DC1D30080B004110A4 /* Manager */,
@@ -1114,24 +1060,17 @@
 			files = (
 				BEBE59031DCB96B20084DD72 /* MMEX.m in Sources */,
 				BE35F42F1D30EB68004110A4 /* LoginRecord.m in Sources */,
-				BE35F4381D30EB68004110A4 /* MoneyManagerEx.xcdatamodeld in Sources */,
 				BE35F3E91D30E12F004110A4 /* UserInfoModel.m in Sources */,
 				BE067A811C1E79EA00F8B6F1 /* MMEXContactsViewController.m in Sources */,
 				BE73F3501DDC90E000F49548 /* EditInfoViewController.m in Sources */,
-				BE35F42C1D30EB68004110A4 /* Currency+CoreDataProperties.m in Sources */,
 				BE35F3FB1D30E8DE004110A4 /* TransactionModel.m in Sources */,
 				BE9472C51BE60BFA001FF64C /* AppDelegate.m in Sources */,
-				BE35F4301D30EB68004110A4 /* Merchant+CoreDataProperties.m in Sources */,
 				BE0772DC1D914B45000BF953 /* BankAccountEditViewController.m in Sources */,
 				BEC703BB1DD8C8AA0012C4E4 /* BankAccountType.m in Sources */,
 				BEAEC61D1BE9109300D11A05 /* MMEXStartPageViewController.m in Sources */,
 				BE35F4371D30EB68004110A4 /* UserInfo.m in Sources */,
-				BE35F42A1D30EB68004110A4 /* Contacts+CoreDataProperties.m in Sources */,
-				BE35F4321D30EB68004110A4 /* Transaction+CoreDataProperties.m in Sources */,
 				BEC703BE1DD8CD8B0012C4E4 /* NSArray+EnumExtension.m in Sources */,
 				BE35F3F51D30E6A5004110A4 /* CurrencyModel.m in Sources */,
-				BE35F4291D30EB68004110A4 /* BaseManagedObject.m in Sources */,
-				BE35F4271D30EB68004110A4 /* Account+CoreDataProperties.m in Sources */,
 				BE618D911D97EE1100984C45 /* MMEXGenderPickerView.m in Sources */,
 				BEB7BA2C1D8ECE6A0065CE2A /* CurrencyTypeListViewController.m in Sources */,
 				BE35F4281D30EB68004110A4 /* Account.m in Sources */,
@@ -1142,16 +1081,15 @@
 				BE90096C1D8EC56800A570D6 /* TransactionTypeListViewController.m in Sources */,
 				BED92E771DCB923200EFD601 /* LoginAccountMgr.m in Sources */,
 				BE35F4351D30EB68004110A4 /* TransactionType.m in Sources */,
-				BE35F4341D30EB68004110A4 /* TransactionType+CoreDataProperties.m in Sources */,
 				BE3D8D251DDB14F000715A81 /* AccountMgr.m in Sources */,
 				BEF6A5AD1DD73CAD00FB6BA4 /* CreateBankAccountTableViewCell.m in Sources */,
+				BE36DC0B243C8C1200B19399 /* Category.m in Sources */,
 				BE618D8C1D969C4000984C45 /* MyNameViewController.m in Sources */,
 				BEBE59001DCB964D0084DD72 /* MainMgr.m in Sources */,
 				BE35F4331D30EB68004110A4 /* Transaction.m in Sources */,
 				BE618D871D9698A600984C45 /* CurrentUserBasicInfoViewController.m in Sources */,
 				BE9472C91BE610F7001FF64C /* MMEXCreateFirstAccountGuideViewController.m in Sources */,
 				BEC703B51DD772010012C4E4 /* CreateBankAccountViewController.m in Sources */,
-				BE73F3591DDE08D700F49548 /* MMEXDBCenter.m in Sources */,
 				BE067A7C1C1E703800F8B6F1 /* UIViewController+MoneyManagerEx.m in Sources */,
 				BE3D8D221DDB149700715A81 /* BaseMgr.m in Sources */,
 				BE94727B1BE5F4EE001FF64C /* main.m in Sources */,
@@ -1165,13 +1103,14 @@
 				BE086B601BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.m in Sources */,
 				BE35F42B1D30EB68004110A4 /* Contacts.m in Sources */,
 				BEC1531A243839620074458B /* MMEXDBFile.m in Sources */,
+				BE36DC08243C74AF00B19399 /* DBTableBase.m in Sources */,
 				BE0BC0AD1D9AC83B0084FC40 /* CurrencyTypeInfoViewController.m in Sources */,
 				BE35F3EC1D30E266004110A4 /* ContactModel.m in Sources */,
 				BE9009711D8ECBCB00A570D6 /* SubTransactionTypeListViewController.m in Sources */,
 				BE35F3EF1D30E2FC004110A4 /* AccountModel.m in Sources */,
 				BEBE59091DCBA2DD0084DD72 /* NSDate+Format.m in Sources */,
+				BE36DC0E243C8D8C00B19399 /* SubCategory.m in Sources */,
 				BE35F3F21D30E374004110A4 /* MerchantModel.m in Sources */,
-				BE35F4361D30EB68004110A4 /* UserInfo+CoreDataProperties.m in Sources */,
 				BEF6A5B21DD749E600FB6BA4 /* MMEXDataPickerView.m in Sources */,
 				BE0BC0B21D9AC9530084FC40 /* MMEXContactInfoViewController.m in Sources */,
 				BE0BC09F1D9AA9320084FC40 /* MMEXDatePickerView.m in Sources */,
@@ -1179,7 +1118,6 @@
 				BE086B711BEDF5C900CEF360 /* MMEXAssetsViewController.m in Sources */,
 				BE35F3E51D30DF85004110A4 /* LoginInfoModel.m in Sources */,
 				BE086B6C1BEDF59A00CEF360 /* MMEXMyAccountViewController.m in Sources */,
-				BE35F42E1D30EB68004110A4 /* LoginRecord+CoreDataProperties.m in Sources */,
 				BE35F4261D30EB68004110A4 /* MMEXDBCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1523,19 +1461,6 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BE35F4241D30EB68004110A4 /* MoneyManagerEx.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BE35F4251D30EB68004110A4 /* MoneyManagerEx.xcdatamodel */,
-			);
-			currentVersion = BE35F4251D30EB68004110A4 /* MoneyManagerEx.xcdatamodel */;
-			path = MoneyManagerEx.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BE94726E1BE5F4EE001FF64C /* Project object */;
 }
