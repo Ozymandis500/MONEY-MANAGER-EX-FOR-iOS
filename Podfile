@@ -1,4 +1,7 @@
-platform :ios, '7.0'
+platform :ios, '9.0'
+
+use_frameworks!
+project 'MoneyManagerEx.xcodeproj'
 
 target 'MoneyManagerEx' do
     pod 'MBProgressHUD', '~> 0.9'
