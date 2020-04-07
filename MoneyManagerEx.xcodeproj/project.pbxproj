@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F71157654FE82FBE3E1A07A /* libPods-MoneyManagerEx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526C958DA69351B8CAF55D7 /* libPods-MoneyManagerEx.a */; };
+		96FEAC3B14751188FDB376B1 /* Pods_MoneyManagerEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C120D90844D6578FD9C9A7A0 /* Pods_MoneyManagerEx.framework */; };
 		BE067A7C1C1E703800F8B6F1 /* UIViewController+MoneyManagerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = BE067A7B1C1E703800F8B6F1 /* UIViewController+MoneyManagerEx.m */; };
 		BE067A811C1E79EA00F8B6F1 /* MMEXContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE067A7F1C1E79EA00F8B6F1 /* MMEXContactsViewController.m */; };
 		BE067A821C1E79EA00F8B6F1 /* MMEXContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE067A801C1E79EA00F8B6F1 /* MMEXContactsViewController.xib */; };
@@ -40,7 +40,7 @@
 		BE35F3F51D30E6A5004110A4 /* CurrencyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3F41D30E6A5004110A4 /* CurrencyModel.m */; };
 		BE35F3F81D30E824004110A4 /* TransactionTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3F71D30E824004110A4 /* TransactionTypeModel.m */; };
 		BE35F3FB1D30E8DE004110A4 /* TransactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3FA1D30E8DE004110A4 /* TransactionModel.m */; };
-		BE35F4261D30EB68004110A4 /* MoneyManagerExDBCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3FF1D30EB68004110A4 /* MoneyManagerExDBCenter.m */; };
+		BE35F4261D30EB68004110A4 /* MMEXDBCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F3FF1D30EB68004110A4 /* MMEXDBCenter.m */; };
 		BE35F4271D30EB68004110A4 /* Account+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4021D30EB68004110A4 /* Account+CoreDataProperties.m */; };
 		BE35F4281D30EB68004110A4 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4041D30EB68004110A4 /* Account.m */; };
 		BE35F4291D30EB68004110A4 /* BaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35F4061D30EB68004110A4 /* BaseManagedObject.m */; };
@@ -99,6 +99,7 @@
 		BEBE59031DCB96B20084DD72 /* MMEX.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE59021DCB96B20084DD72 /* MMEX.m */; };
 		BEBE59091DCBA2DD0084DD72 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE59081DCBA2DD0084DD72 /* NSDate+Format.m */; };
 		BEC14F231BEF946A00FF8D61 /* MMEXSetFavoriteSubAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC14F211BEF946A00FF8D61 /* MMEXSetFavoriteSubAccountViewController.m */; };
+		BEC1531A243839620074458B /* MMEXDBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC15319243839620074458B /* MMEXDBFile.m */; };
 		BEC703B51DD772010012C4E4 /* CreateBankAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC703B31DD772010012C4E4 /* CreateBankAccountViewController.m */; };
 		BEC703B61DD772010012C4E4 /* CreateBankAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC703B41DD772010012C4E4 /* CreateBankAccountViewController.xib */; };
 		BEC703BB1DD8C8AA0012C4E4 /* BankAccountType.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC703BA1DD8C8AA0012C4E4 /* BankAccountType.m */; };
@@ -134,7 +135,6 @@
 /* Begin PBXFileReference section */
 		457214BD31635C17619B45DB /* Pods-MoneyManagerEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagerEx.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx.release.xcconfig"; sourceTree = "<group>"; };
 		61F862671177430A70839D65 /* Pods-MoneyManagerEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManagerEx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx.debug.xcconfig"; sourceTree = "<group>"; };
-		6526C958DA69351B8CAF55D7 /* libPods-MoneyManagerEx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyManagerEx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE067A7A1C1E703800F8B6F1 /* UIViewController+MoneyManagerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MoneyManagerEx.h"; path = "Controller/ViewControllerCategory/UIViewController+MoneyManagerEx.h"; sourceTree = "<group>"; };
 		BE067A7B1C1E703800F8B6F1 /* UIViewController+MoneyManagerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MoneyManagerEx.m"; path = "Controller/ViewControllerCategory/UIViewController+MoneyManagerEx.m"; sourceTree = "<group>"; };
 		BE067A7E1C1E79EA00F8B6F1 /* MMEXContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMEXContactsViewController.h; path = "Controller/Contacts Page/MMEXContactsViewController.h"; sourceTree = "<group>"; };
@@ -200,8 +200,8 @@
 		BE35F3F71D30E824004110A4 /* TransactionTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionTypeModel.m; path = MMEX_SDK/Model/TransactionTypeModel.m; sourceTree = "<group>"; };
 		BE35F3F91D30E8DE004110A4 /* TransactionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionModel.h; path = MMEX_SDK/Model/TransactionModel.h; sourceTree = "<group>"; };
 		BE35F3FA1D30E8DE004110A4 /* TransactionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionModel.m; path = MMEX_SDK/Model/TransactionModel.m; sourceTree = "<group>"; };
-		BE35F3FE1D30EB68004110A4 /* MoneyManagerExDBCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyManagerExDBCenter.h; sourceTree = "<group>"; };
-		BE35F3FF1D30EB68004110A4 /* MoneyManagerExDBCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyManagerExDBCenter.m; sourceTree = "<group>"; };
+		BE35F3FE1D30EB68004110A4 /* MMEXDBCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEXDBCenter.h; sourceTree = "<group>"; };
+		BE35F3FF1D30EB68004110A4 /* MMEXDBCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEXDBCenter.m; sourceTree = "<group>"; };
 		BE35F4011D30EB68004110A4 /* Account+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Account+CoreDataProperties.h"; sourceTree = "<group>"; };
 		BE35F4021D30EB68004110A4 /* Account+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Account+CoreDataProperties.m"; sourceTree = "<group>"; };
 		BE35F4031D30EB68004110A4 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
@@ -313,6 +313,8 @@
 		BEBE59081DCBA2DD0084DD72 /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Format.m"; path = "Categories/NSDate+Format.m"; sourceTree = "<group>"; };
 		BEC14F201BEF946A00FF8D61 /* MMEXSetFavoriteSubAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEXSetFavoriteSubAccountViewController.h; sourceTree = "<group>"; };
 		BEC14F211BEF946A00FF8D61 /* MMEXSetFavoriteSubAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEXSetFavoriteSubAccountViewController.m; sourceTree = "<group>"; };
+		BEC15318243839620074458B /* MMEXDBFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMEXDBFile.h; sourceTree = "<group>"; };
+		BEC15319243839620074458B /* MMEXDBFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMEXDBFile.m; sourceTree = "<group>"; };
 		BEC703B21DD772010012C4E4 /* CreateBankAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateBankAccountViewController.h; path = BankAccount/CreateBankAccountViewController.h; sourceTree = "<group>"; };
 		BEC703B31DD772010012C4E4 /* CreateBankAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateBankAccountViewController.m; path = BankAccount/CreateBankAccountViewController.m; sourceTree = "<group>"; };
 		BEC703B41DD772010012C4E4 /* CreateBankAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CreateBankAccountViewController.xib; path = BankAccount/CreateBankAccountViewController.xib; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 		BEF6A5B01DD749E600FB6BA4 /* MMEXDataPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMEXDataPickerView.h; path = View/CustomView/MMEXDataPickerView.h; sourceTree = "<group>"; };
 		BEF6A5B11DD749E600FB6BA4 /* MMEXDataPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMEXDataPickerView.m; path = View/CustomView/MMEXDataPickerView.m; sourceTree = "<group>"; };
 		BEF6A5B31DD74AF400FB6BA4 /* MMEXDataPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MMEXDataPickerView.xib; path = View/CustomView/MMEXDataPickerView.xib; sourceTree = "<group>"; };
+		C120D90844D6578FD9C9A7A0 /* Pods_MoneyManagerEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManagerEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,7 +353,7 @@
 				BE73F3551DDE077200F49548 /* libsqlite3.0.tbd in Frameworks */,
 				BE73F3561DDE077200F49548 /* libsqlite3.tbd in Frameworks */,
 				BE6586771D51FCF50091FC7D /* ImageIO.framework in Frameworks */,
-				6F71157654FE82FBE3E1A07A /* libPods-MoneyManagerEx.a in Frameworks */,
+				96FEAC3B14751188FDB376B1 /* Pods_MoneyManagerEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +381,7 @@
 				BE73F3541DDE077200F49548 /* libsqlite3.tbd */,
 				BED92E701DCB7F1800EFD601 /* CoreMedia.framework */,
 				BE6586761D51FCF50091FC7D /* ImageIO.framework */,
-				6526C958DA69351B8CAF55D7 /* libPods-MoneyManagerEx.a */,
+				C120D90844D6578FD9C9A7A0 /* Pods_MoneyManagerEx.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -498,8 +501,10 @@
 		BE35F3FD1D30EB68004110A4 /* DBCenter */ = {
 			isa = PBXGroup;
 			children = (
-				BE35F3FE1D30EB68004110A4 /* MoneyManagerExDBCenter.h */,
-				BE35F3FF1D30EB68004110A4 /* MoneyManagerExDBCenter.m */,
+				BE35F3FE1D30EB68004110A4 /* MMEXDBCenter.h */,
+				BE35F3FF1D30EB68004110A4 /* MMEXDBCenter.m */,
+				BEC15318243839620074458B /* MMEXDBFile.h */,
+				BEC15319243839620074458B /* MMEXDBFile.m */,
 			);
 			path = DBCenter;
 			sourceTree = "<group>";
@@ -905,7 +910,6 @@
 				BE9472731BE5F4EE001FF64C /* Frameworks */,
 				BE9472741BE5F4EE001FF64C /* Resources */,
 				0C0454899999B8C6D3BC1D1F /* [CP] Embed Pods Frameworks */,
-				9CC02FD7A0301B238C3846BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1061,28 +1065,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CC02FD7A0301B238C3846BB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyManagerEx/Pods-MoneyManagerEx-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E43C2362BF40088970C4F9AA /* [CP] Check Pods Manifest.lock */ = {
@@ -1091,13 +1093,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyManagerEx-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1159,6 +1164,7 @@
 				BECE3E5E1D1450FC0075D562 /* EditBasicInfoTableViewCell.m in Sources */,
 				BE086B601BEDEAF500CEF360 /* MMEXSelectDefaultCurrencyViewController.m in Sources */,
 				BE35F42B1D30EB68004110A4 /* Contacts.m in Sources */,
+				BEC1531A243839620074458B /* MMEXDBFile.m in Sources */,
 				BE0BC0AD1D9AC83B0084FC40 /* CurrencyTypeInfoViewController.m in Sources */,
 				BE35F3EC1D30E266004110A4 /* ContactModel.m in Sources */,
 				BE9009711D8ECBCB00A570D6 /* SubTransactionTypeListViewController.m in Sources */,
@@ -1174,7 +1180,7 @@
 				BE35F3E51D30DF85004110A4 /* LoginInfoModel.m in Sources */,
 				BE086B6C1BEDF59A00CEF360 /* MMEXMyAccountViewController.m in Sources */,
 				BE35F42E1D30EB68004110A4 /* LoginRecord+CoreDataProperties.m in Sources */,
-				BE35F4261D30EB68004110A4 /* MoneyManagerExDBCenter.m in Sources */,
+				BE35F4261D30EB68004110A4 /* MMEXDBCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
