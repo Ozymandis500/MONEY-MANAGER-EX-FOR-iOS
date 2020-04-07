@@ -10,5 +10,4 @@ target 'MoneyManagerEx' do
     pod 'SDWebImage', '~>3.8'
     pod 'SCLAlertView-Objective-C'
     pod 'FMDB'
-    pod 'FMDBMigrationManager'
 end
